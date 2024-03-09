@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Youtube.com Clone
+    </title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+
+</head>
+
+<body>
+
+    <!--header-->
+
+    <header class="header">
+        <div class="left-section">
+            <img class="hamburger-menu" src="./icons/hamburger-menu.svg">
+            <img class="youtube-logo" src="./icons/youtube-logo.svg">
+        </div>
+        <div class="middle-section">
+            <input class="search-bar" type="text" placeholder="Search">
+            <button class="search-button">
+                <img class="search-icon" src="./icons/search.svg">
+                <div class="tooltip">Search</div>
+            </button>
+            <!--put position absolute inside position relative-->
+            <button class="voice-search-button">
+                <img class="voice-search-icon" src="./icons/voice-search-icon.svg">
+                <div class="tooltip">Search with your voice</div>
+            </button>
+        </div>
+        <div class="right-section">
+            <div class="upload-icon-container">
+                <img class="upload-icon" src="./icons/upload.svg">
+                <div class="tooltip">Create</div>
+            </div>
+
+            <img class="youtube-apps-icon" src="./icons/youtube-apps.svg">
+
+            <div class="notifications-icon-container">
+                <img class="notifications-icon" src="./icons/notifications.svg">
+                <div class="notifications-count">10</div>
+            </div>
+
+            <img class="current-user-picture" src="./channel-pictures/my-channel.jpg">
+
+        </div>
+
+    </header>
+
+    <!--side-bar-->
+    <nav class="sidebar">
+        <div class="sidebar-link">
+            <img src="./icons/home.svg">
+            <div>Home</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="./icons/explore.svg">
+            <div>Explore</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="./icons/subscriptions.svg">
+            <div>Subscriptions</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="./icons/originals.svg">
+            <div>Originals</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="./icons/youtube-music.svg">
+            <div>Youtube-music</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="./icons/library.svg">
+            <div>Library</div>
+        </div>
+    </nav>
+
+    <!--video-boxes-->
+
+    <main>
+        <section class="video-grid">
+
+            <div class="video-preview">
+                <div class="thumbnails-row">
+                    <img class="thumbnails-1" src="./thumbnails/thumbnail-1.jpg">
+
+                    <!--video-time-->
+                    <div class="video-time">2:22</div>
+                </div>
+                <div class="video-info-grid">
+
+                    <div class="channel-pic">
+                        <img class="profile-pic" src="./channel-pictures/channel-1.jpg">
+                    </div>
+                    <div class="video-info">
+
+                        <p class="video-tittle"> <a class="text-deco" href="https://www.youtube.com/watch?v=V_cZa8Ice2w"
+                                target="_blank"> Snap x Baarishen - Mashup (Full Version) | Gravero & TP</a></p>
+
+                        <p class="video-author"><a class="video-author-page"
+                                href="https://www.youtube.com/channel/UCDLvkN2TZ1oyhUBxbltMn_w">Gravero</a>
+                        </p>
+
+                        <p class="video-status">
+                            12M views &#183; 1 year ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnails-row">
+                    <img class="thumbnails-1" src="./thumbnails/thumbnail-6.jpg">
+
+                    <div class="video-time">6:29</div>
+                </div>
+                <div class="video-info-grid">
+
+                    <div class="channel-pic">
+                        <img class="profile-pic" src="./channel-pictures/channel-2.jpg">
+                    </div>
+                    <div class="video-info">
+
+                        <p class="video-tittle"><a class="text-deco" href="https://www.youtube.com/watch?v=jIGsChfCM_o"
+                                target="_blank"> Tom and Jerry - Texas Tom </a></p>
+
+                        <p class="video-author"><a class="video-author-page"
+                                href="https://www.youtube.com/@MovieConNet">MovieCon</a>
+
+
+
+                        </p>
+
+                        <p class="video-status">
+
+                            33M views &#183; 5 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnails-row">
+                    <img class="thumbnails-1" src="./thumbnails/thumbnail-3.jpg">
+
+                    <div class="video-time">7:27</div>
+
+                </div>
+                <div class="video-info-grid">
+
+                    <div class="channel-pic">
+                        <img class="profile-pic" src="./channel-pictures/channel-3.jpg">
+                    </div>
+                    <div class="video-info">
+
+                        <p class="video-tittle"><a class="text-deco" href="https://www.youtube.com/watch?v=zaHLfMz21HY"
+                                target="_blank"> Types Of Students During Exams | Indian Exams </a> </p>
+
+                        <p class="video-author"> <a class="video-author-page"
+                                href="https://www.youtube.com/@NOTYOURTYPE">NOT YOUR TYPE</a>
+
+
+                        </p>
+
+                        <p class="video-status">
+
+                            19M views &#183; 1 year ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnails-row">
+                    <img class="thumbnails-1" src="./thumbnails/thumbnail-2.jpg">
+
+                    <div class="video-time">3:53</div>
+
+                </div>
+                <div class="video-info-grid">
+
+                    <div class="channel-pic">
+                        <img class="profile-pic" src="./channel-pictures/channel-1.jpg">
+                    </div>
+                    <div class="video-info">
+
+                        <p class="video-tittle"><a class="text-deco" href="https://www.youtube.com/watch?v=fF4XYwZtKb0"
+                                target="_blank"> Let Her Go x Husn - Version 2 (Gravero Mashup) | Anuv Jain </a> </p>
+
+                        <p class="video-author"><a class="video-author-page"
+                                href="https://www.youtube.com/channel/UCDLvkN2TZ1oyhUBxbltMn_w">Gravero</a>
+
+
+
+                        </p>
+
+                        <p class="video-status">
+
+                            3.8M views &#183; 4 weeks ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnails-row">
+                    <img class="thumbnails-1" src="./thumbnails/thumbnail-5.jpg">
+
+                    <div class="video-time">9:39</div>
+
+                </div>
+                <div class="video-info-grid">
+
+                    <div class="channel-pic">
+                        <img class="profile-pic" src="./channel-pictures/channel-4.jpg">
+                    </div>
+                    <div class="video-info">
+
+                        <p class="video-tittle"><a class="text-deco" href="https://www.youtube.com/watch?v=6jEfmjpJYeg"
+                                target="_blank"> Did Phineas and Ferb make snow with an ice cream machine? </a> </p>
+
+                        <p class="video-author"> <a class="video-author-page"
+                                href="https://www.youtube.com/@disneyindia">Disney India</a>
+
+
+                        </p>
+
+                        <p class="video-status">
+
+                            58K views &#183; 7 days ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnails-row">
+                    <img class="thumbnails-1" src="./thumbnails/thumbnail-4.jpg">
+
+                    <div class="video-time">7:28</div>
+
+                </div>
+                <div class="video-info-grid">
+
+                    <div class="channel-pic">
+                        <img class="profile-pic" src="./channel-pictures/channel-2.jpg">
+                    </div>
+                    <div class="video-info">
+
+                        <p class="video-tittle"> <a class="text-deco" href="https://www.youtube.com/watch?v=cqGS1e67csQ"
+                                target="_blank"> Tom and Jerry - The Milky Waif </a> </p>
+
+                        <p class="video-author"> <a class="video-author-page"
+                                href="https://www.youtube.com/@MovieConNet">MovieCon</a>
+
+
+
+                        </p>
+
+                        <p class="video-status">
+                            6.6M views &#183; 5 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnails-row">
+                    <img class="thumbnails-1" src="./thumbnails/thumbnail-7.jpg">
+
+                    <div class="video-time">4:39</div>
+
+                </div>
+                <div class="video-info-grid">
+
+                    <div class="channel-pic">
+                        <img class="profile-pic" src="./channel-pictures/channel-5.jpg">
+                    </div>
+                    <div class="video-info">
+
+                        <p class="video-tittle"><a class="text-deco"
+                                href="https://youtu.be/RiJFo-kaJBQ?si=cK1nuIJDAnVNPFjm" target="_blank"> GO INCREDIBLY
+                                FAST </a> </p>
+
+                        <p class="video-author"> <a class="video-author-page"
+                                href="https://www.youtube.com/@LimitlessSpaceInstitute/featured">Limitless Space
+                                Institute</a>
+
+
+                        </p>
+
+                        <p class="video-status">
+
+                            951K views &#183; 1 year ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnails-row">
+                    <img class="thumbnails-1" src="./thumbnails/thumbnail-8.jpg">
+
+                    <div class="video-time">11:46:02</div>
+
+                </div>
+                <div class="video-info-grid">
+
+                    <div class="channel-pic">
+                        <img class="profile-pic" src="./channel-pictures/channel-6.jpg">
+                    </div>
+                    <div class="video-info">
+
+                        <p class="video-tittle"><a class="text-deco"
+                                href="https://youtu.be/ZbX4Ok9YX94?si=EvRAZK_fZ-mkaQ0Q" target="_blank"> Fullstack
+                                Discord Clone: Next.js 13, React, Socket.io, Prisma, Tailwind, MySQL | Full Course 2023
+                            </a> </p>
+
+                        <p class="video-author"> <a class="video-author-page"
+                                href="https://www.youtube.com/@codewithantonio">Code With Antonio</a>
+
+
+
+                        </p>
+
+                        <p class="video-status">
+
+
+                            594K views &#183; 5 months ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnails-row">
+                    <img class="thumbnails-1" src="./thumbnails/thumbnail-9.jpg">
+
+                    <div class="video-time">11:26</div>
+
+                </div>
+                <div class="video-info-grid">
+
+                    <div class="channel-pic">
+                        <img class="profile-pic" src="./channel-pictures/channel-7.jpg">
+                    </div>
+                    <div class="video-info">
+
+                        <p class="video-tittle"><a class="text-deco"
+                                href="https://youtu.be/d33-LGd-oFY?si=cLRUBU6_4YhMgILP" target="_blank"> हमें क्यों
+                                एलियन्स की तलाश नहीं करनी चाहिए घना जंगल </a> </p>
+
+                        <p class="video-author"> <a class="video-author-page"
+                                href="https://www.youtube.com/@kurzgesagt_hi">आसान शब्दों में — Kurzgesagt</a>
+                        </p>
+
+                        <p class="video-status">
+                            1.8K views &#183; 6 days ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="video-preview">
+                <div class="thumbnails-row">
+                    <img class="thumbnails-1" src="./thumbnails/thumbnail-10.jpg">
+
+                    <div class="video-time">7:44</div>
+
+                </div>
+                <div class="video-info-grid">
+
+                    <div class="channel-pic">
+                        <img class="profile-pic" src="./channel-pictures/channel-8.jpg">
+                    </div>
+                    <div class="video-info">
+
+                        <p class="video-tittle"><a class="text-deco"
+                                href="https://youtu.be/WhWc3b3KhnY?si=EFth9R3JiwdHLa5i" target="_blank"> Spring -
+                                Blender Open Movie </a> </p>
+
+                        <p class="video-author"> <a class="video-author-page"
+                                href="https://www.youtube.com/@BlenderStudio">Blender Studio
+                            </a>
+                        </p>
+
+                        <p class="video-status">
+                            9.6M views &#183; 4 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="video-preview">
+                <div class="thumbnails-row">
+                    <img class="thumbnails-1" src="./thumbnails/thumbnail-12.jpg">
+
+                    <div class="video-time">18:12</div>
+
+                </div>
+                <div class="video-info-grid">
+
+                    <div class="channel-pic">
+                        <img class="profile-pic" src="./channel-pictures/channel-10.jpg">
+                    </div>
+                    <div class="video-info">
+
+                        <p class="video-tittle"><a class="text-deco"
+                                href="https://youtu.be/e3fz3dqhN44?si=SCgqx1-06uWRICaG" target="_blank"> Quantum
+                                Computers, explained with MKBHD </a> </p>
+
+                        <p class="video-author"> <a class="video-author-page"
+                                href="https://www.youtube.com/@CleoAbram">Cleo Abram
+                            </a>
+                        </p>
+
+                        <p class="video-status">
+
+                            7M views &#183; 11 months ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="video-preview">
+                <div class="thumbnails-row">
+                    <img class="thumbnails-1" src="./thumbnails/thumbnail-11.jpg">
+
+                    <div class="video-time">1:34:40</div>
+
+                </div>
+                <div class="video-info-grid">
+
+                    <div class="channel-pic">
+                        <img class="profile-pic" src="./channel-pictures/channel-9.jpg">
+                    </div>
+                    <div class="video-info">
+
+                        <p class="video-tittle"><a class="text-deco"
+                                href="https://www.youtube.com/live/eMNY3zI-TPM?si=Wu9UIW0tWNdD0qW8" target="_blank">
+                                TikTok, Snap, Meta, and X CEOs testify in Senate hearing watch live </a> </p>
+
+                        <p class="video-author"> <a class="video-author-page"
+                                href="https://www.youtube.com/@guardiannews">
+                                Guardian News
+                            </a>
+                        </p>
+
+                        <p class="video-status">
+                            3.8M views &#183; 1 month ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnails-row">
+                    <img class="thumbnails-1" src="./thumbnails/thumbnail-13.jpg">
+
+                    <div class="video-time">26:07</div>
+
+                </div>
+                <div class="video-info-grid">
+
+                    <div class="channel-pic">
+                        <img class="profile-pic" src="./channel-pictures/channel-11.jpg">
+                    </div>
+                    <div class="video-info">
+
+                        <p class="video-tittle"><a class="text-deco"
+                                href="https://youtu.be/0EIwhvqCX1c?si=9TFthxm2P2crl-Hw" target="_blank"> NVIDIA'S HUGE
+                                AI Chip Breakthroughs Change Everything (Supercut)</a> </p>
+
+                        <p class="video-author"> <a class="video-author-page"
+                                href="https://www.youtube.com/@TickerSymbolYOU">
+
+                                Ticker Symbol: YOU
+
+                            </a>
+                        </p>
+
+                        <p class="video-status">
+
+                            1.1M views &#183; 8 months ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="video-preview">
+                <div class="thumbnails-row">
+                    <img class="thumbnails-1" src="./thumbnails/thumbnail-14.jpg">
+
+                    <div class="video-time">32:23</div>
+
+                </div>
+                <div class="video-info-grid">
+
+                    <div class="channel-pic">
+                        <img class="profile-pic" src="./channel-pictures/channel-12.jpg">
+                    </div>
+                    <div class="video-info">
+
+                        <p class="video-tittle"><a class="text-deco"
+                                href="https://youtu.be/o48X3_XQ9to?si=M_f1s30v_5IfmKvy" target="_blank">THE HUMAN
+                                FUTURE: A Case for Optimism</a> </p>
+
+                        <p class="video-author"> <a class="video-author-page"
+                                href="https://www.youtube.com/@melodysheep">
+
+                                melodysheep
+
+
+                            </a>
+                        </p>
+
+                        <p class="video-status">
+
+                            3.9M views &#183; 6 months ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="video-preview">
+                <div class="thumbnails-row">
+                    <img class="thumbnails-1" src="./thumbnails/thumbnail-15.jpg">
+
+                    <div class="video-time">9:01</div>
+
+                </div>
+                <div class="video-info-grid">
+
+                    <div class="channel-pic">
+                        <img class="profile-pic" src="./channel-pictures/channel-13.jpg">
+                    </div>
+                    <div class="video-info">
+
+                        <p class="video-tittle"><a class="text-deco"
+                                href="https://youtu.be/gelcNqUtE9A?si=jdMFhzDRil2ffu8R" target="_blank">Record-Breaking
+                                Expense: Constructing the World's Largest Office in India</a> </p>
+
+                        <p class="video-author"> <a class="video-author-page"
+                                href="https://www.youtube.com/@ExclusiveExplains">
+
+                                Exclusive Explains
+
+
+                            </a>
+                        </p>
+
+                        <p class="video-status">
+
+                            3.6K views &#183; 4 days ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnails-row">
+                    <img class="thumbnails-1" src="./thumbnails/thumbnail-16.jpg">
+
+                    <div class="video-time">28:44</div>
+
+                </div>
+                <div class="video-info-grid">
+
+                    <div class="channel-pic">
+                        <img class="profile-pic" src="./channel-pictures/channel-14.jpg">
+                    </div>
+                    <div class="video-info">
+
+                        <p class="video-tittle"><a class="text-deco"
+                                href="https://youtu.be/-lx6tC9PuZ0?si=KxIVvWG8onHiRq_y" target="_blank">Dark Reality Of
+                                Instagram - Mastermind Mark Zuckerberg</a> </p>
+
+                        <p class="video-author"> <a class="video-author-page"
+                                href="https://www.youtube.com/@AshutoshPratihastAP">
+
+                                Ashutosh Pratihast
+
+                            </a>
+                        </p>
+
+                        <p class="video-status">
+                            2.8M views &#183; 1 year ago
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
